@@ -1,10 +1,10 @@
-prefix academia: <http://semantica.academiatech.com/oficina002/>
+prefix academia: <http://graph.onto/>
 INSERT INTO academia:
 { 
-  <http://semantica.academiatech.com/oficina002/Equipe/1> academia:nome "RBR";
+  <http://graph.onto/Equipe/1> academia:nome "RBR";
   rdfs:type academia:Equipe.
-  <http://semantica.academiatech.com/oficina002/Equipe/2> academia:nome "Lotus-Renault";
+  <http://graph.onto/Equipe/2> academia:nome "Lotus-Renault";
     rdfs:type academia:Equipe.
-  <http://semantica.academiatech.com/oficina002/Equipe/3> academia:nome "Ferrari"  ;
+  <http://graph.onto/Equipe/3> academia:nome "Ferrari"  ;
       rdfs:type academia:Equipe.
 }

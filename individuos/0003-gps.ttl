@@ -1,12 +1,12 @@
-prefix academia: <http://semantica.academiatech.com/oficina002/>
+prefix academia: <http://graph.onto/>
 INSERT INTO academia:
 { 
-  <http://semantica.academiatech.com/oficina002/GP/1> academia:nome "Austrália";
+  <http://graph.onto/GP/1> academia:nome "Austrália";
   rdfs:type academia:GP.
-  <http://semantica.academiatech.com/oficina002/GP/2> academia:nome "Malásia";
+  <http://graph.onto/GP/2> academia:nome "Malásia";
     rdfs:type academia:GP.
-  <http://semantica.academiatech.com/oficina002/GP/3> academia:nome "China";
+  <http://graph.onto/GP/3> academia:nome "China";
       rdfs:type academia:GP.
-  <http://semantica.academiatech.com/oficina002/GP/4> academia:nome "Bahrein";
+  <http://graph.onto/GP/4> academia:nome "Bahrein";
         rdfs:type academia:GP.
 }

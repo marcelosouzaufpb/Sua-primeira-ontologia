@@ -1,4 +1,4 @@
-# [Academia Tech](http://academiatech.com.br) - Oficina 002
+# [Globo.com] - Oficina de como criar sua primeira ontologia
 ===========
 
 Web Semântica na Prática: **Criando seu Primeiro Modelo Semântico**.
@@ -48,18 +48,18 @@ A oficina terá 2 horas de duração:
 
 1. Assistir o debate sobre web semântica [aqui](http://academiatech.com.br/agenda/web-semantica-os-desafios-por-tras-da-nova-web)
 2. Levar seu notebook (nós forneceremos uma instalação do virtuoso)
-3. Instalar o [Virtuoso](https://github.com/academiatech/oficina-002/wiki/Virtuoso)
+3. Instalar o [Virtuoso](https://github.com/romulojales/Sua-primeira-ontologia/wiki/Virtuoso)
 4. Instalar o python 2.7, ou superior, com o [pip](https://pypi.python.org/pypi/pip) instalado
 5. Configurar o virtualenv. Executar no terminal:
 
 ```bash
 mkdir -p ~/academiatech && cd ~/academiatech
 
-git clone git@github.com:academiatech/oficina-002.git
+git clone https://github.com/romulojales/Sua-primeira-ontologia
 cd oficina-002
 
 pip install virtualenvwrapper
-mkvirtualenv academiatech
+mkvirtualenv semantica
 pip install simple-virtuoso-migrate
 
 ```

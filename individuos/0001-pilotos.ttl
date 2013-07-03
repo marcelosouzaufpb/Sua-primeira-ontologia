@@ -5,25 +5,25 @@
 # >
 
 
-prefix academia: <http://semantica.academiatech.com/oficina002/>
+prefix academia: <http://graph.onto/>
 INSERT INTO academia:
 { 
-  <http://semantica.academiatech.com/oficina002/Piloto/1> academia:nome "Felipe Massa" ;
+  <http://graph.onto/Piloto/1> academia:nome "Felipe Massa" ;
           academia:slug_topico "felipe-massa";
           rdfs:type academia:Piloto.
-  <http://semantica.academiatech.com/oficina002/Piloto/2> academia:nome "Sebastian Vettel" ;
+  <http://graph.onto/Piloto/2> academia:nome "Sebastian Vettel" ;
           academia:slug_topico "sebastian-vettel";
             rdfs:type academia:Piloto.
-  <http://semantica.academiatech.com/oficina002/Piloto/3> academia:nome "Mark Webber" ;
+  <http://graph.onto/Piloto/3> academia:nome "Mark Webber" ;
           academia:slug_topico "mark-webber";
             rdfs:type academia:Piloto.
-  <http://semantica.academiatech.com/oficina002/Piloto/4> academia:nome "Kimi Raikkonen" ;
+  <http://graph.onto/Piloto/4> academia:nome "Kimi Raikkonen" ;
           academia:slug_topico "kimi-raikkonen";
             rdfs:type academia:Piloto.
-  <http://semantica.academiatech.com/oficina002/Piloto/5> academia:nome "Romain Grosjean" ;
+  <http://graph.onto/Piloto/5> academia:nome "Romain Grosjean" ;
           academia:slug_topico "romain-grosjean";
             rdfs:type academia:Piloto.
-  <http://semantica.academiatech.com/oficina002/Piloto/6> academia:nome "Fernando Alonso" ;
+  <http://graph.onto/Piloto/6> academia:nome "Fernando Alonso" ;
           academia:slug_topico "fernando-alonso";
             rdfs:type academia:Piloto.
 }

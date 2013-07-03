@@ -1,5 +1,5 @@
 @prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix :	<http://semantica.academiatech.com/oficina002/> .
+@prefix :	<http://graph.onto/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
@@ -77,7 +77,7 @@
     rdfs:domain	:GridLargada ;
     rdfs:range	rdf:XMLLiteral .
 
-###  http://semantica.academiatech.com/oficina002/Campeonato
+###  http://graph.onto/Campeonato
 :Campeonato rdf:type	owl:Class ;
 	rdfs:label	"Campeonato";
 	rdfs:subClassOf
@@ -93,7 +93,7 @@
     ].
 
 
-###  http://semantica.academiatech.com/oficina002/EdicaoCampeonato
+###  http://graph.onto/EdicaoCampeonato
 :EdicaoCampeonato	rdf:type	owl:Class ;
 	rdfs:label	"Edição de Campeonato";
 	rdfs:subClassOf
@@ -108,7 +108,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/Equipe
+###  http://graph.onto/Equipe
 :Equipe	rdf:type	owl:Class ;
 	rdfs:label	"Equipe";
 	rdfs:subClassOf
@@ -118,7 +118,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/Piloto
+###  http://graph.onto/Piloto
 :Piloto	rdf:type	owl:Class ;
 	rdfs:label	"Piloto";
 	rdfs:subClassOf
@@ -133,7 +133,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/ClassificacaoConstrutores
+###  http://graph.onto/ClassificacaoConstrutores
 :ClassificacaoConstrutores	rdf:type	owl:Class ;
 	rdfs:label	"Classificação de Construtores";
 	rdfs:subClassOf
@@ -153,7 +153,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/ClassificacaoPilotos
+###  http://graph.onto/ClassificacaoPilotos
 :ClassificacaoPilotos	rdf:type	owl:Class ;
 	rdfs:label	"Classificação de Pilotos";
 	rdfs:subClassOf
@@ -173,7 +173,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/Corrida
+###  http://graph.onto/Corrida
 :Corrida	rdf:type	owl:Class ;
 	rdfs:label	"Corrida";
 	rdfs:subClassOf
@@ -203,7 +203,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/CriteriosPontuacao
+###  http://graph.onto/CriteriosPontuacao
 :CriteriosPontuacao	rdf:type	owl:Class ;
 	rdfs:label	"Critérios de Pontuação";
 	rdfs:subClassOf
@@ -218,7 +218,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/GP
+###  http://graph.onto/GP
 :GP	rdf:type	owl:Class ;
 	rdfs:label	"GP";
 	rdfs:subClassOf
@@ -228,7 +228,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/GridLargada
+###  http://graph.onto/GridLargada
 :GridLargada	rdf:type	owl:Class ;
 	rdfs:label	"Grid de Largada";
 	rdfs:subClassOf
@@ -248,7 +248,7 @@
         owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger
     ].
 
-###  http://semantica.academiatech.com/oficina002/Resultado
+###  http://graph.onto/Resultado
 :Resultado	rdf:type	owl:Class ;
 	rdfs:label	"Resultado";
 	rdfs:subClassOf
