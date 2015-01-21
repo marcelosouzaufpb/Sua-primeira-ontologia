@@ -13,7 +13,11 @@ Web Semântica na Prática: **Criando seu Primeiro Modelo Semântico**.
 
 Se você assistiu o debate sobre web semântica e ficou querendo mais, essa é a oportunidade! Se você ainda não assistiu, confira [aqui](http://academiatech.com.br/agenda/web-semantica-os-desafios-por-tras-da-nova-web).
 
-## Resumo
+Baixe os slides do workshop feito no dia 09/10/2014 [aqui](./slides/Slides-Workshop-Semantica.pdf).
+
+Quer trabalhar na globo.com? Acesse [aqui](https://github.com/globocom/IWantToWorkAtGloboCom).
+
+## Resumo do conteúdo
 
 O objetivo final desta oficina é apresentar de forma prática os conceitos de web semântica através da criação de uma ontologia que descreve Fórmula 1.
 
@@ -27,24 +31,7 @@ A seguir, faremos consultas SPARQL no grafo que criamos no Virtuoso e explicarem
 
 Esperamos com essa oficina que os desenvolvedores saiam com vontade de utilizar semântica em suas apliações
 
-A oficina terá 2 horas de duração:
-
-#### Abertura (10 minutos):
-
-- Apresentação do tema da oficina
-
-
-#### Introduçao (20 minutos)
-- verificação do ambiente local
-- introdução ao console do virtuoso
-
-#### Mão na massa (80 minutos)
-- Criação de TTLs
-- Queries de consulta e inclusão de dados.
-
-#### Considerações finais (10 minutos)
-
-## Pré-requisitos
+## Pré-requisitos originais para esse workshop
 
 1. Assistir o debate sobre web semântica [aqui](http://academiatech.com.br/agenda/web-semantica-os-desafios-por-tras-da-nova-web)
 2. Levar seu notebook (nós forneceremos uma instalação do virtuoso)
@@ -63,3 +50,4 @@ mkvirtualenv semantica
 pip install simple-virtuoso-migrate
 
 ```
+
