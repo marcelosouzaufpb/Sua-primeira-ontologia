@@ -15,6 +15,8 @@ Se você assistiu o debate sobre web semântica e ficou querendo mais, essa é a
 
 Baixe os slides do workshop feito no dia 09/10/2014 [aqui](./slides/Slides-Workshop-Semantica.pdf).
 
+Veja o vídeo do workshop [aqui](https://www.youtube.com/watch?v=Q1uB66oSMv8).
+
 Quer trabalhar na globo.com? Acesse [aqui](https://github.com/globocom/IWantToWorkAtGloboCom).
 
 ## Resumo do conteúdo
